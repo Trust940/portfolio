@@ -1,0 +1,66 @@
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* min-width: 100%;
+  min-height: 100%; */
+  width: 100vw;
+  height: 100vh;
+  /* width: 100%;
+  height: 100%; */
+  object-fit: cover;
+  z-index: -1;
+  /* opacity: 0.5; */
+}
+.professiontable {
+  position: relative; /* needed for video positioning */
+  width: 100%;
+  height: 600px;
+  /* border: 1px solid black; */
+  overflow: hidden; /* prevents video overflow */
+  text-align: center; /* centers content */
+  color: white; /* makes text visible on dark video */
+}
+
+body{
+    max-width:fit-content;
+    margin: 0 auto;
+}
+/* .professiontable td {
+ position: relative;
+  z-index: 1;
+} */
+
+button {
+  padding: 12px 24px;
+  margin: 0 10px;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+button:hover {
+  background: #92b9e2;
+  color: #0e0e0e;
+}
+
+.socials a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+
+.socials a:hover {
+  opacity: 0.7;
+}
+
+.job {
+  font-size: clamp(2.5rem, 8vw, 4rem); /* min, fluid, max */
+  font-weight: 900; /* hella bold */
+  text-transform: capitalize;
+  color: #ffd700;
+  margin-bottom: 2rem;
+}
